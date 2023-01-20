@@ -63,7 +63,9 @@ Nos iremos al panel de control, bajaremos a complementos, desde aqui podemos ins
 
 Aqui dejo algunos repositorios:
 https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json
+
 https://repo.codyrobibero.dev/manifest.json
+
 https://raw.githubusercontent.com/dkanada/jellyfin-plugin-intros/master/manifest.json
 
 ## Montar pcloud en nuestro servidor
