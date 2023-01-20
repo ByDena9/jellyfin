@@ -1,0 +1,16 @@
+version: '3'
+services:
+  jellyfin:
+    container_name: "jellyfin"
+    image: "jellyfin/jellyfin:latest"
+    ports:
+      - "8096:8096"
+    volumes:
+      - "Ruta_de_la_carpeta_donde_estan_guardados_los_videos:carpeta_del_servidor (ej: /mnt:rw)"
+      - "Ruta_de_la_carpeta_donde_vamos_a_montar_el_directorio_config:/config:rw"
+    environment:
+      TZ: Europe/Madrid
+      PGID: 1000 #opcional
+      PUID: 1000 #opcional
+      UMASK: 002 #opcional
+    restart: unless-stopped
