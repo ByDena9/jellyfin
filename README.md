@@ -18,5 +18,18 @@ Ejemplo de volumenes montados:
 Pondremos el puerto por defecto para que jellyfin pueda funcionar: `8096`
 
 ### Instalacion
-Levantamos el docker compose con `docker compose up -d`
+1. Levantamos el docker compose con `docker compose up -d`
 
+2. Una vez levantado accederemos a nuestro servidor con un navegador.
+
+3. Comenzaremos la instalacion, eleguiremos idioma y daremos a siguiente.
+
+4. Crearemos nuestro usuario administrador.
+
+5. Las bibliotecas las configuraremos mas adelante, le daremos a siguiente.
+
+6. Eleguimos la ubicacion y el idioma predefinido.
+
+7. Dejaremos activado el permitir conexiones remotas, le daremos a siguiente.
+
+8. Una vez todo realizado le daremos a comenzar. Con esto ya tendriamos instalado nuestro servidor jellyfin.
