@@ -1,6 +1,6 @@
 # jellyfin
 
-## Instalacion y configuracion de docker-compose
+## Configuracion de docker-compose
 Clonamos el repositorio: `git clone https://github.com/ByDena9/jellyfin.git`
 
 Modificamos nuestro docker-compose.yml `nano docker-compose.yml` y configuramos los volumenes donde vamos a montar nuestras peliculas y series.
@@ -17,7 +17,7 @@ Ejemplo de volumenes montados:
 ### Asignacion de puertos
 Pondremos el puerto por defecto para que jellyfin pueda funcionar: `8096`
 
-### Instalacion
+## Instalacion
 1. Levantamos el docker compose con `docker compose up -d`
 
 2. Una vez levantado accederemos a nuestro servidor con un navegador.
