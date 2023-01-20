@@ -47,7 +47,17 @@ Para añadir bibliotecas nos iremos al `panel de control`:
 Nos iremos a bibliotecas, en bibliotecas le daremos a `añadir biblioteca de medios`
 ![image](https://user-images.githubusercontent.com/114068764/213698361-3dbc4b87-3c66-4f31-a1de-494c5fb1659e.png)
 
+Podremos nombre a nuestra biblioteca y elegiremos el tipo de archivos que vamos a subir, despues le daremos a añadir carpeta:
 ![image](https://user-images.githubusercontent.com/114068764/213698846-9f9f8d1b-1655-4555-ab4c-96a7d1f09bd8.png)
+
+![image](https://user-images.githubusercontent.com/114068764/213702238-5de41f97-bfa1-45c5-9b90-d14b36c01e58.png)
+
+![image](https://user-images.githubusercontent.com/114068764/213702595-618df14a-8049-4576-abe4-17ca11016299.png)
+
+![image](https://user-images.githubusercontent.com/114068764/213702850-5d29ad88-f043-45ce-8a3f-08ad56626718.png)
+
+![image](https://user-images.githubusercontent.com/114068764/213703243-52d8ee2e-dd23-4b19-98d5-322c936ceb99.png)
+
 
 ## Montar pcloud en nuestro servidor
 Para montar pcloud en nuestro servidor seguiremos los pasos para la instalacion desde aqui: `https://github.com/pcloudcom/console-client`
