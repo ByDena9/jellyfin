@@ -58,6 +58,13 @@ Podremos nombre a nuestra biblioteca y elegiremos el tipo de archivos que vamos 
 
 ![image](https://user-images.githubusercontent.com/114068764/213703243-52d8ee2e-dd23-4b19-98d5-322c936ceb99.png)
 
+Nos iremos al panel de control, bajaremos a complementos, desde aqui podemos instalar los plugins que necesitemos, pero primero agregaremos los repositorios que necesitemos:
+![image](https://user-images.githubusercontent.com/114068764/213704954-09f67093-99a3-4ad8-994f-808414345925.png)
+
+Aqui dejo algunos repositorios:
+https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json
+https://repo.codyrobibero.dev/manifest.json
+https://raw.githubusercontent.com/dkanada/jellyfin-plugin-intros/master/manifest.json
 
 ## Montar pcloud en nuestro servidor
 Para montar pcloud en nuestro servidor seguiremos los pasos para la instalacion desde aqui: `https://github.com/pcloudcom/console-client`
