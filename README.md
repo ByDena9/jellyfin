@@ -159,4 +159,4 @@ Con `Report` podemos hacer algo parecido al anterior pero de una manera mas gene
 
 
 ## Montar pcloud en nuestro servidor
-Para montar pcloud en nuestro servidor seguiremos los pasos para la instalacion desde aqui: `https://github.com/pcloudcom/console-client`
+Para montar pcloud en nuestro servidor nos iremos al repositorio oficial de pcloud y seguiremos los pasos para conectar nuestra nube con nuestro servidor: `https://github.com/pcloudcom/console-client`
