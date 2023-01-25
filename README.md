@@ -129,5 +129,21 @@ Cuando hagamos todo esto reiniciamos nuestro contenedor de jellyfin y comprobare
 
 Video explicacion para modificar icono, baner y nombre de jellyfin: https://www.youtube.com/watch?v=F85qMyBeiDI
 
+### Poner una intro
+Para esto necesitaremos instalarnos un plugin llamado intros:
+![image](https://user-images.githubusercontent.com/114068764/214560934-384d7297-c9a2-4219-baba-d727739a7150.png)
+
+Una vez lo tengamos instalado y hayamos reiniciado el contenedor tendremos que coger una intro personalizada que tengamos y la tendremos que poner en una carpeta dentro del contenedor de jellyfi
+Una vez la tengamos dentro del contenedor nos iremos al plugin que hemos instalado, y configuraremos para que ponga nuestra intro:
+![image](https://user-images.githubusercontent.com/114068764/214562125-85e39176-d5df-4c83-a0a0-05d797bce744.png)
+
+Una vez puesta reiniciamos el contenedor, y ahora si le damos a ver cualquier cosa que tengamos en nuestro jellyfin (peliculas, series, etc) veremos como antes de empezar a verlo nos aparecera la intro que nosotros le hemos puesto:
+![image](https://user-images.githubusercontent.com/114068764/214562729-a36ef1e9-5ba0-4c40-9142-1f464c62e5ac.png)
+
+Tambien el plugin por defecto trae unas intro para poner por si no queremos ponerle ninguna personalizada:
+![image](https://user-images.githubusercontent.com/114068764/214562946-e4f76f59-13b6-465d-908c-f3a32618a63e.png)
+
+
+
 ## Montar pcloud en nuestro servidor
 Para montar pcloud en nuestro servidor seguiremos los pasos para la instalacion desde aqui: `https://github.com/pcloudcom/console-client`
