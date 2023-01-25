@@ -62,11 +62,31 @@ Nos iremos al panel de control, bajaremos a complementos, desde aqui podemos ins
 ![image](https://user-images.githubusercontent.com/114068764/213704954-09f67093-99a3-4ad8-994f-808414345925.png)
 
 Aqui dejo algunos repositorios:
+
 https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json
 
 https://repo.codyrobibero.dev/manifest.json
 
 https://raw.githubusercontent.com/dkanada/jellyfin-plugin-intros/master/manifest.json
+
+### Configuracion de notificaciones con bot de discord
+Nos vamos a panel de control/complementos, una vez estemos en complementos nos iremos a catalogo y buscaremos el plugin Webhooks:
+![image](https://user-images.githubusercontent.com/114068764/214514887-2ff08d71-126b-456d-82c6-0ebd3acfa0df.png)
+
+Lo instalaremos y reiniciaremos el contenedor:
+![image](https://user-images.githubusercontent.com/114068764/214519323-24999b79-40ff-4695-8b1f-98050c3c66ad.png)
+
+Una vez instalado nos vamos a nuestros complementos y le daremos a webhook, aqui podemos configurar varios tipos de alertas, para ello pondremos la url de nuestro servidor (o la ip con la que accedemos en caso de no tener un nombre de dominio) y le daremos a añadir el tipo de notificacion que vamos a usar (en este caso Discord):
+![image](https://user-images.githubusercontent.com/114068764/214519909-ff6f9a6b-e3f3-4516-bb43-7615d6c0b382.png)
+
+Antes de seguir necesitamos tener creado un bot en discord, para esto nos vamos a ajustes de nuestra cuenta de discord y le daremos a webhook, desde ahi le daremos a crear nuevo webhook, le pondremos nombre y le diremos en que canal de que servidor lo vamos a integrar:
+![image](https://user-images.githubusercontent.com/114068764/214522030-b9958446-1c53-4f43-b3ac-1cf45d851f7e.png)
+
+Una vez tengamos nuestro bot volveremos a donde estabamos en jellyfin, aqui pondremos el nombre de nuestro bot de discord y su url:
+![image](https://user-images.githubusercontent.com/114068764/214520982-8c87ae14-3740-425e-91c2-f1045ed509ab.png)
+
+Despues seleccionamos que queremos que nos notifique (aqui cada uno selecciona dependiendo de sus necesidades), * importante el no marcar la casilla de send all propierties ya que no funciona actualmente*:
+![image](https://user-images.githubusercontent.com/114068764/214522571-9f176d2d-8e7a-44cb-9ae7-e7b0bbd68740.png)
 
 ## Montar pcloud en nuestro servidor
 Para montar pcloud en nuestro servidor seguiremos los pasos para la instalacion desde aqui: `https://github.com/pcloudcom/console-client`
