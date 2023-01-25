@@ -154,6 +154,9 @@ Con `Playback reporting` podemos tener tanto informacion sobre los usuario (acti
 ![image](https://user-images.githubusercontent.com/114068764/214565273-aa4c3eef-065e-4538-a3ee-00ebd5376dce.png)
 ![image](https://user-images.githubusercontent.com/114068764/214565349-51de6bfd-59b1-4e53-a41b-245c760bf9b5.png)
 
+Con `Report` podemos hacer algo parecido al anterior pero de una manera mas general:
+![image](https://user-images.githubusercontent.com/114068764/214565519-9fcb5832-a273-422e-8444-3a918d677471.png)
+
 
 ## Montar pcloud en nuestro servidor
 Para montar pcloud en nuestro servidor seguiremos los pasos para la instalacion desde aqui: `https://github.com/pcloudcom/console-client`
