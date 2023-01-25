@@ -98,6 +98,20 @@ Por ultimo guardaremos la configuracion y probaremos que nuestras notificaciones
 Si realizamos cualquier accion que hayamos configurado para que nos notifique veremos como nos avisara en nuestro canal de discord:
 ![image](https://user-images.githubusercontent.com/114068764/214528439-bde27483-eacb-4845-91b5-c29937815191.png)
 
+## Personalizar nuestro jellyfin
+Ahora vamos a explicar como podemos modificar el nombre de nuestro jellyfin, su icono, su logo y como añadir una intro para antes de ver una pelicula.
+
+## Modificar nombre de jellyfin
+Para esto tendremos que acceder al contenedor, una vez dentro del contenedor con el comando `docker exec -ti nombredelcontenedor /bin/bash` nos iremos a la ruta `/jellyfin/jellyfin-web` y modificaremos el archivo main.nombredelcontenedor.bundle.js
+
+En este archivo buscaremos `document.tittle='jellyfin'` y `document.title=e||"jellyfin"` y cambiaremos `jellyfin` por el nombre que nosotros queramos:
+![image](https://user-images.githubusercontent.com/114068764/214530942-c153e30b-17bc-4011-8a17-701166b2a3d6.png)
+![image](https://user-images.githubusercontent.com/114068764/214531188-5df7a012-554b-4e2f-b7da-0ee7ae060769.png)
+
+Una vez lo cambiemos guardaremos el archivo y modificaremos el archivo index.html, buacaremos `<title>nombrequequeramos</title>` y modificaremos el nombre por el nombre que hayamos puesto en el archivo de antes:
+![image](https://user-images.githubusercontent.com/114068764/214531806-320578d6-b4a1-4c7f-9a8c-32f1f1b1b523.png)
+
+
 
 ## Montar pcloud en nuestro servidor
 Para montar pcloud en nuestro servidor seguiremos los pasos para la instalacion desde aqui: `https://github.com/pcloudcom/console-client`
