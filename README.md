@@ -1,4 +1,4 @@
-# jellyfin
+# Jellyfin
 
 ## Configuracion de docker-compose
 Clonamos el repositorio: `git clone https://github.com/ByDena9/jellyfin.git`
