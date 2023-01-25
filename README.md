@@ -145,5 +145,15 @@ Tambien el plugin por defecto trae unas intro para poner por si no queremos pone
 
 Video para poner una intro en jellyfin y más configuraciones: https://www.youtube.com/watch?v=8W0PrQe6WgM&t=426s
 
+### Otros plugins interesantes
+`Reports` y `Playback reporting` son dos plugins que sirven para obtener informacion sobre lo que esta pasando en el servidor:
+![image](https://user-images.githubusercontent.com/114068764/214564064-6625dc42-bc9a-47a5-8253-ad08d47b79ad.png)
+
+Con `Playback reporting` podemos tener tanto informacion sobre los usuario (actividad, ultima conexion, etc) como graficas para saber el uso que se le esta dando al servidor, como por ejemplo que peliculas son las mas vistas, cuantas veces la han visto, etc. Tambien podemos hacer una copia de esas graficas para guardarlas:
+![image](https://user-images.githubusercontent.com/114068764/214564503-3e882c7a-e618-43ce-9b20-bea6e2456d49.png)
+![image](https://user-images.githubusercontent.com/114068764/214565273-aa4c3eef-065e-4538-a3ee-00ebd5376dce.png)
+![image](https://user-images.githubusercontent.com/114068764/214565349-51de6bfd-59b1-4e53-a41b-245c760bf9b5.png)
+
+
 ## Montar pcloud en nuestro servidor
 Para montar pcloud en nuestro servidor seguiremos los pasos para la instalacion desde aqui: `https://github.com/pcloudcom/console-client`
