@@ -111,6 +111,9 @@ En este archivo buscaremos `document.tittle='jellyfin'` y `document.title=e||"je
 Una vez lo cambiemos guardaremos el archivo y modificaremos el archivo index.html, buacaremos `<title>nombrequequeramos</title>` y modificaremos el nombre por el nombre que hayamos puesto en el archivo de antes:
 ![image](https://user-images.githubusercontent.com/114068764/214531806-320578d6-b4a1-4c7f-9a8c-32f1f1b1b523.png)
 
+Una vez hecho los pasos anteriores reiniciaremos nuestro contenedor de jellyfin y comprobaremos como se ha combiado el nombre de nuestro jellyfin:
+![image](https://user-images.githubusercontent.com/114068764/214532212-2ccaa896-022a-4662-b1d6-8da6b57137d5.png)
+
 
 
 ## Montar pcloud en nuestro servidor
