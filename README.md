@@ -143,7 +143,7 @@ Una vez puesta reiniciamos el contenedor, y ahora si le damos a ver cualquier co
 Tambien el plugin por defecto trae unas intro para poner por si no queremos ponerle ninguna personalizada:
 ![image](https://user-images.githubusercontent.com/114068764/214562946-e4f76f59-13b6-465d-908c-f3a32618a63e.png)
 
-
+Video para poner una intro en jellyfin y más configuraciones: https://www.youtube.com/watch?v=8W0PrQe6WgM&t=426s
 
 ## Montar pcloud en nuestro servidor
 Para montar pcloud en nuestro servidor seguiremos los pasos para la instalacion desde aqui: `https://github.com/pcloudcom/console-client`
