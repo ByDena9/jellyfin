@@ -116,11 +116,11 @@ Una vez hecho los pasos anteriores reiniciaremos nuestro contenedor de jellyfin 
 ![image](https://user-images.githubusercontent.com/114068764/214532212-2ccaa896-022a-4662-b1d6-8da6b57137d5.png)
 
 ## Personalizacion de icono y banner de jellyfin
-# Modificar icono
+### Modificar icono
 Para esto tendremos que acceder al contenedor, una vez dentro del contenedor con el comando `docker exec -ti nombredelcontenedor /bin/bash` nos iremos a la ruta `/jellyfin/jellyfin-web`, aqui si hacemos un `ls| grep favicon` veremos como tenemos dos archivos llamados `favicon.ico` y `favicon.png`, lo que tenemos que hacer es sustituir los favicon por nuestro icono *tiene que tener el mismo nombre*:
 ![image](https://user-images.githubusercontent.com/114068764/214557700-aa0fef96-3f74-4527-a14c-c0f0a83bdabc.png)
 
-# Modificar banner
+### Modificar banner
 Accederemos al contenedor, una vez entrado al contenedor con el comando `docker exec -ti nombredelcontenedor /bin/bash` nos iremos a la ruta `/jellyfin/jellyfin-web/assets/img`, aqui veremos tres archivos `banner-light.png` `banner-dark.png` `icon-transparent.png`, pues lo que tendremos que hacer será copiar nuestro banner tres veces poniendole el nombre de cada uno de estos archivos y borrar los que estaban:
 ![image](https://user-images.githubusercontent.com/114068764/214558421-cbfdfaef-1ef7-4051-9084-502ecc38f513.png)
 
