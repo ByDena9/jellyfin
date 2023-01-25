@@ -93,7 +93,10 @@ Por ultimo en templates tendremos que coger el codigo de este enlace https://git
 ![image](https://user-images.githubusercontent.com/114068764/214524946-f38f79a0-5abd-4ed4-bc4d-fd4ee65c3d50.png)
 
 Por ultimo guardaremos la configuracion y probaremos que nuestras notificaciones funcionan correctamente:
-![image](https://user-images.githubusercontent.com/114068764/214525174-5840bc7b-a4f3-4dc3-9745-417c5542cfe9.png)
+![image](https://user-images.githubusercontent.com/114068764/214528209-e36ae3a0-7191-4a3b-b047-520c43b3ee13.png)
+
+Si realizamos cualquier accion que hayamos configurado para que nos notifique veremos como nos avisara en nuestro canal de discord:
+![image](https://user-images.githubusercontent.com/114068764/214528439-bde27483-eacb-4845-91b5-c29937815191.png)
 
 
 ## Montar pcloud en nuestro servidor
