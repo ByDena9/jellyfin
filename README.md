@@ -86,7 +86,15 @@ Una vez tengamos nuestro bot volveremos a donde estabamos en jellyfin, aqui pond
 ![image](https://user-images.githubusercontent.com/114068764/214520982-8c87ae14-3740-425e-91c2-f1045ed509ab.png)
 
 Despues seleccionamos que queremos que nos notifique (aqui cada uno selecciona dependiendo de sus necesidades), * importante el no marcar la casilla de send all propierties ya que no funciona actualmente*:
+
 ![image](https://user-images.githubusercontent.com/114068764/214522571-9f176d2d-8e7a-44cb-9ae7-e7b0bbd68740.png)
+
+Por ultimo en templates tendremos que coger el codigo de este enlace https://github.com/jellyfin/jellyfin-plugin-webhook/blob/master/Jellyfin.Plugin.Webhook/Templates/Discord.handlebars y lo pegaremos en templates:
+![image](https://user-images.githubusercontent.com/114068764/214524946-f38f79a0-5abd-4ed4-bc4d-fd4ee65c3d50.png)
+
+Por ultimo guardaremos la configuracion y probaremos que nuestras notificaciones funcionan correctamente:
+![image](https://user-images.githubusercontent.com/114068764/214525174-5840bc7b-a4f3-4dc3-9745-417c5542cfe9.png)
+
 
 ## Montar pcloud en nuestro servidor
 Para montar pcloud en nuestro servidor seguiremos los pasos para la instalacion desde aqui: `https://github.com/pcloudcom/console-client`
